@@ -1,9 +1,14 @@
 
-let some_array = [1993, 2002, 2006, 2011, 2014];
+// Testing JS //
 
-let num = 0;
-
-while(num < 50) {
-    console.log(num);
-    num++
+const new_hero = (x, y, z) => {
+    return {
+        name: x,
+        age: y,
+        profession: z
+    }
 }
+
+let hero1 = new_hero('Mikey', 38, 'Programmer');
+
+console.log(`Greetings! Your current heros are: ${hero1.name} and he's a ${hero1.profession}`);
