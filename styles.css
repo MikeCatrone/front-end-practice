@@ -1,6 +1,7 @@
 
 body {
     background-color: #F5EFE7;
+    width: 100%;
 }
 .container {
     padding: 2em;
@@ -86,3 +87,18 @@ form input {
 .myForm p {
     font-size: 14px;
 }
+
+
+@media (max-width: 480px) {
+
+    body {
+        margin-left: 0;
+    }
+
+   .container {
+    margin-left: auto;
+    margin-right: auto;
+    width:77%;
+   }
+
+  }
