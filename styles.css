@@ -8,11 +8,14 @@ body {
     border: 4px solid #213555;
     border-radius: 8px;
     width: 30em;
-    height: 32em;
+    height: 36.5em;
     margin: 5em;
+    transition: 1s;
+    
+    
 }
 
-h1, p, h2 {
+h1, p, h2, h3 {
     font-family: sans-serif;
     font-weight: 300;
     color:  #3E5879;
@@ -36,4 +39,50 @@ p {
 .copyright {
     padding-top: 1em;
     padding-bottom: 2em;
+}
+
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.4s;
+}
+
+.button:hover {
+    background-color: #008CBA;
+    border-radius: 8px;
+}
+
+.myForm {
+    
+    margin-top: 2em;
+    overflow-y: scroll;
+    height: 8em;
+    width:0%;
+    height:0%;
+    margin-left: auto; margin-right: auto;
+    overflow-y: scroll;
+    transition: 1.2s;
+    
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form input {
+    width:85%;
+    margin: auto;
+}
+
+.myForm p {
+    font-size: 14px;
 }
