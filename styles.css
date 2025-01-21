@@ -96,9 +96,11 @@ form input {
     }
 
    .container {
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     width:77%;
+    height: 32em;
    }
 
   }
