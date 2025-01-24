@@ -88,6 +88,10 @@ form input {
     font-size: 14px;
 }
 
+label {
+    font-family: sans-serif;
+    
+}
 
 @media (max-width: 480px) {
 
